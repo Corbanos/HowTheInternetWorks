@@ -13,8 +13,22 @@
         <p>A deep dive into the backbone of modern technology</p>
     </header>
 
+    <!-- Navigation Bar -->
+    <nav class="top-bar">
+        <ul>
+            <li><a href="arpanet.html">ARPANET</a></li>
+            <li><a href="tcpip.html">TCP/IP</a></li>
+            <li><a href="web.html">The Web</a></li>
+            <li><a href="social-media.html">Social Media</a></li>
+            <li><a href="ai-web3.html">AI & Web 3.0</a></li>
+            <li class="center-button"><a href="index.html">How The Internet Works</a></li>
+            <li><a href="contribute.html">How People Contribute</a></li>
+            <li><a href="facts.html">Interesting Facts</a></li>
+        </ul>
+    </nav>
+
     <section class="timeline">
-        <div class="timeline-item fade-in">
+        <div class="timeline-item fade-in" id="arpanet">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
                 <h2>1969 - ARPANET</h2>
@@ -22,7 +36,7 @@
             </div>
         </div>
 
-        <div class="timeline-item fade-in">
+        <div class="timeline-item fade-in" id="tcpip">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
                 <h2>1983 - TCP/IP</h2>
@@ -30,7 +44,7 @@
             </div>
         </div>
 
-        <div class="timeline-item fade-in">
+        <div class="timeline-item fade-in" id="web">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
                 <h2>1991 - The Web</h2>
@@ -38,7 +52,7 @@
             </div>
         </div>
 
-        <div class="timeline-item fade-in">
+        <div class="timeline-item fade-in" id="social-media">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
                 <h2>2000s - Social Media</h2>
@@ -46,7 +60,7 @@
             </div>
         </div>
 
-        <div class="timeline-item fade-in">
+        <div class="timeline-item fade-in" id="ai-web3">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
                 <h2>Today - AI & Web 3.0</h2>
@@ -56,19 +70,19 @@
     </section>
 
     <!-- Separation Lines & Informational Sections -->
-    <div class="separator">How the Internet Works</div>
+    <div class="separator" id="how-it-works">How the Internet Works</div>
     <section class="info-section fade-in visible">
         <h2>How Does the Internet Work?</h2>
         <p>The internet is a global network of computers communicating via protocols like TCP/IP. Data travels in packets through servers, routers, and switches.</p>
     </section>
 
-    <div class="separator">How People Contribute</div>
+    <div class="separator" id="contribute">How People Contribute</div>
     <section class="info-section fade-in visible">
         <h2>How Do People Contribute?</h2>
         <p>People contribute by creating websites, open-source projects, writing blogs, sharing knowledge, and participating in online communities.</p>
     </section>
 
-    <div class="separator">Other Interesting Facts</div>
+    <div class="separator" id="facts">Other Interesting Facts</div>
     <section class="info-section fade-in visible">
         <h2>Did You Know?</h2>
         <p>There are over 1.5 billion websites on the internet, and the first email was sent in 1971!</p>
